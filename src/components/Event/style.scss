@@ -1,0 +1,28 @@
+
+.back-btn{
+	border: none;
+	font-size: 12px;
+	font-weight: 600;
+	img{
+	    margin-bottom: 3px;
+    	margin-right: 8px;
+	}
+}
+.events{
+	.upcoming{
+		font-size: 14px;
+		font-weight: 600;
+	}
+	.event-detail{
+		.heading{
+			font-size: 14px;
+			font-weight: 600;
+		}
+		hr{
+			margin-top: 0;
+		}
+		p{
+			font-size: 12px;
+		}
+	}
+}

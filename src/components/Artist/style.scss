@@ -1,0 +1,34 @@
+.artist-results{
+	margin-top: 10px;
+	.artist{
+		img{
+			border-radius: 50px;
+		}
+		.artist-detail{
+			margin-left: 10px;
+		    width: 200px;
+		    white-space: nowrap;
+		    overflow: hidden;
+		    text-overflow: ellipsis;
+			.name{
+				font-size: 14px;
+				font-weight: 700;
+				margin-bottom: 0;
+			}
+			.link{
+				font-size: 11px;
+				color: #000;
+			}
+		}
+	}
+}
+@media (max-width: 575.98px) { 
+	.artist{
+		flex-direction: column;
+		text-align: center;
+
+		.artist-detail{
+			margin-top: 10px;
+		}
+	}
+}

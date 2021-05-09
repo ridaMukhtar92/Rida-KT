@@ -1,0 +1,23 @@
+
+.search-container{
+	height: 100vh;
+}
+
+.search-form{
+	width: 100%;
+	.form-group{
+		position: relative;
+	}
+	input{
+		padding: 1rem;
+		box-shadow: 0 2px 5px 1px rgba(219,219,219,0.4);
+		border-radius: 0;
+	}
+	button{
+		background-color: transparent;
+	    border: none;
+	    position: absolute;
+	    right: 10px;
+	    top: 15px;
+	}
+}
