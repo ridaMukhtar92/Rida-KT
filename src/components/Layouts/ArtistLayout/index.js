@@ -19,7 +19,7 @@ const ArtistLayout = () => {
 		    	<div className="artist-container d-flex flex-column mt-5">
 
 			 		<Search />
-			 		<p><strong>{3} Results found for " "</strong></p>
+			 		<br/>
 			 		<Artist setLoader={setLoader}/>
 				</div>
 	    </Fragment>

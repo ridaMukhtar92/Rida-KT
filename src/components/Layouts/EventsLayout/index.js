@@ -5,7 +5,7 @@ import { Link,useHistory } from "react-router-dom";
 import arrow from '../../../images/left-arrow.png'
 
 const EventsLayout = (props) => {
-
+	
 	const history = useHistory();
 	const goBack = () => {
 	  history.goBack()
@@ -16,7 +16,7 @@ const EventsLayout = (props) => {
 
     return (
     	<Fragment>
-		    {true &&
+		    {loader &&
 		    	<div className="loader d-flex justify-content-center align-items-center">
 			    	<div class="spinner-border" role="status">
 					  	<span class="sr-only"></span>
